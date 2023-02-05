@@ -1,0 +1,215 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to right, #333, red);
+
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    
+    
+}
+
+  
+  nav ul {
+    display: flex;
+    list-style: none;
+  }
+
+  nav a {
+    color: black;
+    display: block;
+    padding: 20px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: capitalize;
+    cursor: pointer;
+    
+  }
+
+  h1{
+    padding-top: 22px;
+    padding-left: 20px;
+    font-size: 16px;
+    font-weight: bold;
+  }
+
+  nav a:hover
+  {
+    border-bottom: 2px solid black;
+    cursor: pointer;
+    color: grey;
+    transition: 0.5s;
+  }
+
+  .home{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    border-bottom: 1px solid white;
+    padding-bottom: 20px;
+  }
+
+.container h1{
+    font-size: 50px;
+    padding-top: 90px;
+    
+}
+
+.column {
+    float: left;
+    width: 40%;
+    padding: 20px;
+  }
+ 
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+
+  .column p {
+    text-align: center;
+    padding-left: 50px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    float: right;
+    text-align: justify;
+    font-size: 20px;
+    color: white;
+  }
+
+  .column img{
+    width: 60%;
+    border-radius: 30px;
+    box-shadow: 7px 7px 7px white;
+    transition: all 0.3s ease;
+
+  }
+
+  .column img:hover{
+    transform: translateY(-10px);
+      box-shadow: 10px 10px 10px gray;
+  }
+
+  /*Our Hobbies*/
+  .hobby{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 20px;
+
+  }
+
+  .contain{
+    text-align: center;
+    justify-content: center;
+    display: flex;
+  }
+
+  .contain h1{
+    font-size: 50px;
+    padding-top: 20px;
+  }
+
+  .img-container {
+    display: inline-block;
+    text-align: center;
+    width: 33%;
+  }
+  .img-container img {
+    width: 60%;
+    height: 200px;
+    box-shadow: 5px 2px 5px 5px white;
+  }
+  .img-container p {
+    padding: 30px;
+    text-align: justify;
+    
+  }
+  
+  .img-container img:hover{
+    transform: translateY(-10px);
+    box-shadow: 10px 10px 10px gray;
+    transition: all 0.3s ease-in-out;
+  }
+
+
+
+  /*Greetings*/
+
+  .greet{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    border-bottom: 1px solid white;
+    padding-bottom: 20px;
+    border-top: 1px solid white;
+    
+  }
+
+  
+
+  .greet-headline h1{
+    text-align: center;
+    justify-content: center;
+    font-size: 48px;
+  }
+
+  .vid-greet {
+    text-align: center;
+  }
+  
+  video {
+    margin: 20px 0;
+    
+  }
+  
+  .vid-greet p {
+    font-size: 16px;
+    text-align: center;
+    width: 400px;
+    margin: 0 auto;
+    text-align: justify;
+    color: white;
+  }
+
+  .vid-greet h1{
+    font-size: 50px;
+  }
+
+  span{
+    font-weight: bold;
+    color: black;
+  }
+  
+
+  .animated-section {
+    opacity: 0;
+    animation: pop-in-out 2s forwards;
+  }
+  
+  @keyframes pop-in-out {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+/*Promisses*/
+
+
+
+
+
+
+  
